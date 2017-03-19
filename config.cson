@@ -1,0 +1,29 @@
+"*":
+  "atom-beautify":
+    general:
+      analytics: false
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "symbols-view"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "8c1df07f-e54c-41ec-82e0-c7a9c6692237"
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false
