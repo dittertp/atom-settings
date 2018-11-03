@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # install atom packages
 apm install --packages-file packages.txt
 
